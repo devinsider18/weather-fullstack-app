@@ -41,24 +41,6 @@
 1.  **Архітектура BFF:** Клієнт не звертається до погодних сервісів напряму. Всі запити йдуть через Express-сервер. Це вирішує проблеми CORS та дозволяє легко змінювати провайдера погоди без змін на фронтенді.
 2.  **Оптимізація:** Сервер перевіряє наявність свіжих даних у кеші перед тим, як робити запит до зовнішнього API. Це значно економить ліміти запитів.
 
-### 📦 Встановлення та запуск
-
-1.  **Клонування репозиторію:**
-    ```bash
-    git clone https://github.com/devinsider18/weather-fullstack-app.git
-    cd weather-fullstack-app
-    ```
-
-2.  **Встановлення залежностей (окремо для клієнта та сервера):**
-    ```bash
-    cd server && npm install
-    cd ../client && npm install
-    ```
-
-3.  **Запуск:**
-    * Термінал 1 (Сервер): `cd server && npm start`
-    * Термінал 2 (Клієнт): `cd client && npm run dev`
-
 ---
 
 <a name="-english-version"></a>
@@ -91,21 +73,3 @@
 
 1.  **BFF Architecture:** The client app never communicates with weather services directly. All requests go through the Express server. This solves CORS issues and allows for seamless weather provider swapping without frontend code changes.
 2.  **Optimization:** The server checks for fresh data in the cache before making a request to the external API. This significantly saves API rate limits and improves latency.
-
-### 📦 Installation & Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/devinsider18/weather-fullstack-app.git
-    cd weather-fullstack-app
-    ```
-
-2.  **Install dependencies (separately for client and server):**
-    ```bash
-    cd server && npm install
-    cd ../client && npm install
-    ```
-
-3.  **Run the application:**
-    * Terminal 1 (Server): `cd server && npm start`
-    * Terminal 2 (Client): `cd client && npm run dev`
