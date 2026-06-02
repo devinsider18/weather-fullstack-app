@@ -11,7 +11,7 @@
 ---
 
 <a name="-українська-версія"></a>
-## 🇺🇦 Українська версія
+## 🇺🇦
 
 **SkyTracker** — це сучасний веб-застосунок для моніторингу погоди в реальному часі. Проєкт розроблено з використанням архітектури **BFF**, що забезпечує безпеку даних, кешування запитів та оптимізацію продуктивності.
 
@@ -62,7 +62,7 @@
 ---
 
 <a name="-english-version"></a>
-## 🇬🇧 English Version
+## 🇬🇧
 
 **SkyTracker** is a modern web application for real-time weather monitoring. The project is built using the **BFF** architecture, ensuring data security, request caching, and performance optimization.
 
@@ -109,11 +109,3 @@
 3.  **Run the application:**
     * Terminal 1 (Server): `cd server && npm start`
     * Terminal 2 (Client): `cd client && npm run dev`
-
----
-
-## 👤 Author
-
-**Dmytro Voronkov**
-* Fullstack Developer (React / Node.js)
-* Email: i@devinsider.com.ua
