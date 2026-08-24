@@ -1,5 +1,5 @@
 import type { WeatherData, ApiError } from '../types/weather';
-const API_BASE_URL = 'https://weather-api.devinsider.com.ua';
+const API_BASE_URL = 'http://localhost:4000';
 export const getWeather = async (city: string): Promise<WeatherData> => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/weather?city=${city}`);
