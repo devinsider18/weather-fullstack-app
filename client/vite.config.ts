@@ -4,14 +4,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    host: true,  
-    strictPort: true,
-    allowedHosts: [
-      'weather.devinsider.com.ua', 
-      'devinsider.com.ua'          
-    ],
-    hmr: {
-      clientPort: 443  
-    }
+    host: true
   }
 })
